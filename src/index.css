@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+.fat{
+  color: darkorange;
+}
+.fat:hover{
+  opacity: 0.5;
+  transition: opacity 500ms ease;
+}
+.me{
+  color: forestgreen;
+}
+.me:hover{
+  opacity: 0.5;
+  transition: opacity 500ms ease;
+}
+
+/* -------- SITE----------- */
+body{
+  background: rgb(47, 22, 80);
+  color: rgb(238, 240, 215);
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  width: 1800px;
+  margin: 50px auto;
+}
+
+header .logo{
+  font-weight: 600;
+  font-size: 50px;
+}
+
+header .nav{
+  float: right;
+  list-style: none;
+}
+
+header .nav-li{
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity 500ms ease;
+}
+
+header .nav-li:hover{
+  opacity: 0.5;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(238, 240, 215);
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* ----------CARDS---------- */
+
+header .card{
+  margin: 20px 30px;
+  background: rgb(66, 33, 110);
+  height: 500px;
+  border-radius: 15px;
+  flex: 0 1 15%;
+}
+header .card:hover{
+  background-color: #5264AE;
+}
+
+header .flex_content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header .card-img{
+  width: 300px;
+  height: 190px;
+  /* border-radius: 15px; */
+}
+
+header .buy-btn:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
